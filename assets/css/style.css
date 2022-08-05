@@ -1,0 +1,295 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+div.backgroundDasar{
+    position: absolute;
+    width: 100%;
+    height: 5858px;
+    background-color: #FFF5EC;
+    z-index: 1;
+}
+div.batasDasar{
+    position: relative;
+    width: 1920px;
+    height: 5780px;
+    /*border: 1px solid black;*/
+    background-color: #FFF5EC;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+
+/*bagian 1 */
+div.garis1{
+    position: relative;
+    width: 1920px;
+    height: 1048px;
+    /*border: 1px solid red;*/
+    display: flex;
+    z-index: 3;
+}
+
+/*kotak 1*/
+div.kotak1{
+    width: 960px;
+    height: 1048px;
+    /*border: 1px solid green;*/
+}
+
+div.menu1{
+    width: 600px;
+    height: 157px;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+a.isiMenu1{
+    font-size: 20px;
+    text-decoration: none;
+    margin: auto;
+}
+
+div.kotakJudul{
+    width: 562px;
+    height: 180px;
+    /*border: 1px solid black;*/
+    margin-top: 257px;
+    margin-left: 135px;
+}
+h1.judul{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    text-transform: capitalize;
+    margin-top: 0px;
+    color: #2E266F;
+}
+
+div.search{
+    width: 670px;
+    height: 90px;
+    background: #EFEFEF;
+    border-radius: 15px;
+    margin-left: 135px;
+}
+input.search{
+    border: none;
+    background: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B6B6B6;
+    opacity: 0.6;
+    text-transform: capitalize;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+/*Kotak 2*/
+div.login{
+    width: 48px;
+    height: 25px;
+    /*border: 1px solid black;*/
+    margin-left: 770px;
+    margin-top: 67px;
+
+}
+a.login{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+div.pp{
+    width: 52px;
+    height: 52px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-top: -42px;
+    margin-left: 710px;
+}
+
+div.gambar1{
+    margin-top: 113px;
+    margin-left: 125px;
+}
+/*Bagian 2*/
+div.garis2{
+    position: relative;
+    width: 1920px;
+    height: 2470px;
+    /*border: 1px solid red;*/
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.kotak2{
+    width: 950px;
+    height: 1230px;
+    /*border: 1px solid green;*/
+    
+}
+
+/*kotak3*/
+div.title1{
+    width: 636px;
+    height: 105px;
+    /*border: 1px solid black;*/
+    margin-left: 190px;
+}
+h2.title1{
+    font-size: 48px;
+    margin-top: 20px;
+    color: #3F3A3A;
+}
+div.fariasi1{
+    width: 25px;
+    height: 140px;
+    background: #EFC81A;
+
+    margin-top: -135px;
+    margin-left: 135px;
+}
+
+div.gambar2{
+    width: 830px;
+    height: 830px;
+    margin-top: 102px;
+    margin-left: 135px;
+}
+
+div.kalimat1{
+    width: 570px;
+    height: 271px;
+    /*border: 1px solid black;*/
+    margin-left: 255px;
+    margin-top: 460px;
+}
+h2.kalimat1{
+    font-size: 56px;
+    margin-top: 0px;
+    color: #3F3A3A;
+}
+p.kalimat1{
+    font-size: 24px;
+    margin-top: 61px;
+    color: #3F3A3A;
+}
+
+button.Learn{
+    width: 200px;
+    height: 64px;
+    background: #EFC81A;
+    border: none;
+    border-radius: 8px;
+    margin-left: 255px;
+    margin-top: 70px;
+}
+a.Learn{
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFF5EC;
+}
+
+/*all Gambar*/
+div.allgambar{
+    width: 1920px;
+    height: 1195px;
+    /*border: 1px solid green;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+img.image{
+    width: 500px;
+    height: 500px;
+}
+
+div.garis3{
+    position: relative;
+    width: 1920px;
+    height: 1290px;
+    /*border: 1px solid red;*/
+    z-index: 3;
+}
+
+/*footer*/
+div.garis4{
+    width: 1918px;
+    height: 685px;
+    border: 1px solid #EFC81A;
+    background: #EFC81A;
+    margin-top: 270px;
+}
+div.backgroundGaris4{
+    width: 1916px;
+    height: 438px;
+    margin-top: 0px;
+}
+div.kalimat2{
+    width: 700px;
+    height: 133px;
+    /*border: 1px solid black;*/
+    margin: auto;
+    margin-top: 247px;
+
+}
+h1.kalimat2{
+    font-size: 72px;
+    margin-top: 0px;
+    text-align: center;
+    color: #2E266F;
+}
+p.kalimat2{
+    font-size: 24px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+div.kalimat3{
+    width: 434px;
+    height: 88px;
+    /*border: 1px solid black;*/
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+div.kalimat3, .kata {
+    font-size: 16px;
+    text-decoration: none;
+    color: #707070;
+}
+
+/*Desain*/
+div.desain1{
+    position: absolute;
+    width: 514px;
+    height: 1210px;
+    margin-left: 1406px;
+
+    top: 0px;
+    background: #EFC81A
+}
+div.desain2{
+    position: absolute;
+    width: 514px;
+    height: 820px;
+    background: #EFC81A;
+
+    top: 2630px;
+}
+div.desain3{
+    position: absolute;
+    width: 683px;
+    height: 801px;
+    border: 8px solid #EFC81A;
+
+    margin-left: 338px;
+    top: 1420px;
+}
